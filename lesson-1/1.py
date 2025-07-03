@@ -1,5 +1,6 @@
 name = input("Salom MAAB ga xush kelibsiz\nIsmingiz nima: ")
 age = int(input("Yoshingiz nechida: "))
+
 if age >= 18:
     print(f"{name} sizning yoshingiz {age} bo'lgani uchun bizda ta'lim olishingiz mumkin")
 else:
