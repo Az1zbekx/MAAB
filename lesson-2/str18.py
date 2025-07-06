@@ -1,0 +1,5 @@
+satr = input("Gap: ")
+boshi = input("Boshlanish so‘zi: ")
+oxiri = input("Tugash so‘zi: ")
+print("Boshlanadi" if satr.startswith(boshi) else "Boshlanmaydi")
+print("Tugaydi" if satr.endswith(oxiri) else "Tugamaydi")
