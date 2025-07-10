@@ -1,9 +1,9 @@
 def fun():
-    x = input("Password: ")
-    if len(x) < 8:
+    password = input("Password: ")
+    if len(password) < 8:
         print("Password is too short.")
     else:
-        for i in x:
+        for i in password:
             if i.isupper():
                 print("Password is strong.")
                 return

@@ -2,26 +2,26 @@ import random
 def game():
 
     num = random.randint(1,100)
-    c  = 10
+    cnt  = 10
 
     while c:
-        x = input()
+        guess = input()
 
-        if not x.isdigit():
+        if not guess .isdigit():
             print("Please enter a valid number.")
             continue
         
-        x = int(x) 
+        guess  = int(guess ) 
         
-        if x == num:
+        if guess  == num:
             print("You guessed it right!")
             return
-        elif x > num:
+        elif guess  > num:
             print("Too high!")
-        elif x < num:
+        elif guess  < num:
             print("Too low!")
 
-        c -= 1
+        cnt -= 1
 
     print("You lost. Want to play again?")
     com = input().strip().lower()
