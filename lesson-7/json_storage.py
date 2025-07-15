@@ -1,7 +1,6 @@
 import json
 from task import Task
 from storage import Storage
-
 class JSONStorage(Storage):
     def __init__(self, filename):
         self.filename = filename

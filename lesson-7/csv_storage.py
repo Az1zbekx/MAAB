@@ -1,7 +1,6 @@
 import csv
 from task import Task
 from storage import Storage
-
 class CSVStorage(Storage):
     def __init__(self, filename):
         self.filename = filename

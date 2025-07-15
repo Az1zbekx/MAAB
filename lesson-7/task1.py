@@ -1,5 +1,4 @@
 import math
-
 class Vector:
     def __init__(self, *components):
         if not components:

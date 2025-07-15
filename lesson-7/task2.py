@@ -184,7 +184,6 @@ class EmployeeManager:
                 case '6': print("👋 Goodbye!"); break
                 case _: print("❌ Invalid choice. Try again.")
 
-
 if __name__ == "__main__":
     manager = EmployeeManager()
     manager.menu()

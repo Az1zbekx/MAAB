@@ -1,5 +1,4 @@
 from task import Task
-
 class TaskManager:
     def __init__(self, storage):
         self.storage = storage
