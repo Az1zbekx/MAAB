@@ -1,5 +1,6 @@
 import requests
 
+
 weather_api_key = "e83fed15a3008e2c83e0b768268ee7d8"
 city_name = "Tashkent"
 weather_url = f"http://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={weather_api_key}&units=metric"

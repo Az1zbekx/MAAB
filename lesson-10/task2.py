@@ -1,6 +1,7 @@
 import requests
 import random
 
+
 movie_api_key = "69fd13f6d0ece99d21db4d6f2984a570"
 base_url = "https://api.themoviedb.org/3"
 
